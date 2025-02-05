@@ -11,7 +11,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
+[![MIT LICENSE][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -75,7 +75,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `gittazokuetep24/budget-manager`, `twitter_handle`, `linkedin_username`, `tazokuetep@gmail.com_client`, `tazokuetep@gmail.com`, `budget-manager`, `project_description`, `project_license`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,6 +84,11 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 
 * [![React][React.js]][React-url]
+* [![HTML][React.js]][React-url]
+* [![React][React.js]][React-url]
+* [![React][React.js]][React-url]
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -177,7 +181,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Distributed under the MIT LICENSE. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,7 +190,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Patrick Tazo Kuete - [@twitter_handle](https://twitter.com/twitter_handle) - tazokuetep@gmail.com
+patrick-tazo-kuete-b39866255 - [@twitter_handle](https://twitter.com/twitter_handle) - tazokuetep@gmail.com
 
 Project Link: [https://github.com/tazokuetep24/budget-manager](https://github.com/tazokuetep24/budget-manager)
 
@@ -218,7 +222,7 @@ Project Link: [https://github.com/tazokuetep24/budget-manager](https://github.co
 [license-shield]: https://img.shields.io/github/license/tazokuetep24/budget-manager.svg?style=for-the-badge
 [license-url]: https://github.com/tazokuetep24/budget-manager/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/patrick-tazo-kuete-b39866255
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
