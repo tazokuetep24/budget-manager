@@ -75,7 +75,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `gittazokuetep24/budget-manager`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `gittazokuetep24/budget-manager`, `twitter_handle`, `linkedin_username`, `tazokuetep@gmail.com_client`, `tazokuetep@gmail.com`, `budget-manager`, `project_description`, `project_license`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -107,20 +106,16 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/tazokuetep24/budget-manager.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
+
+3. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin tazokuetep24/budget-manager
    git remote -v # confirm the changes
