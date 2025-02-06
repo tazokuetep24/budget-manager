@@ -190,7 +190,9 @@ Distributed under the MIT LICENSE. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-patrick-tazo-kuete-b39866255 - [@twitter_handle](https://twitter.com/twitter_handle) - tazokuetep@gmail.com
+<a href="mailto:tazokuetep@gmail.com">
+  <img height="16" align="left" alt="Mail" src="img/icons/gmail.png" />
+</a>
 
 Project Link: [https://github.com/tazokuetep24/budget-manager](https://github.com/tazokuetep24/budget-manager)
 
@@ -228,7 +230,6 @@ Project Link: [https://github.com/tazokuetep24/budget-manager](https://github.co
 [React-url]: https://reactjs.org/
 [HTML-5]: https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white
 [Javascript]: https://img.shields.io/badge/javascript-gray?style=for-the-badge&logo=javascript
-
 [CSS]: https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3
 
 
