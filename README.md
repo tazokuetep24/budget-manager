@@ -146,7 +146,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
-    - [ ] Nested Feature
+
 
 See the [open issues](https://github.com/tazokuetep24/budget-manager/issues) for a full list of proposed features (and known issues).
 
@@ -190,9 +190,7 @@ Distributed under the MIT LICENSE. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-<a href="mailto:tazokuetep@gmail.com">
-  <img height="16" align="left" alt="Mail" src="img/icons/gmail.png" />
-</a>
+[![gmail][Gmail]][gmail-url]
 
 Project Link: [https://github.com/tazokuetep24/budget-manager](https://github.com/tazokuetep24/budget-manager)
 
@@ -231,6 +229,9 @@ Project Link: [https://github.com/tazokuetep24/budget-manager](https://github.co
 [HTML-5]: https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white
 [Javascript]: https://img.shields.io/badge/javascript-gray?style=for-the-badge&logo=javascript
 [CSS]: https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3
+[gmail]: https://img.shields.io/badge/Gmail-tazokuetep%40gmail.com-white?logo=gmail&labelColor=white&color=black
+[gmail-url]: mailto:tazokuetep@gmail.com
+
 
 
 
