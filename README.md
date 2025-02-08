@@ -12,7 +12,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT LICENSE][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -20,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/tazokuetep24/budget-manager">
-    <img src="public/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/logo.png" alt="Logo" width="50%" height="50%">
   </a>
 
 <h3 align="center">Budget Manager</h3>
