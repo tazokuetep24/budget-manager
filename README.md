@@ -28,7 +28,7 @@
     This is a simple Budget Manager, which helps you to have an overview of where your money goes, and possibly give you insights as to where you can save a few pennies. 
     Take control of your finances now, don't let any cent get away.
     <br />
-    <a href="https://github.com/tazokuetep24/budget-manager"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tazokuetep24/budget-manager/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/tazokuetep24/budget-manager">View Demo</a>
@@ -42,7 +42,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li>
