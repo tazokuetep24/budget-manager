@@ -31,7 +31,7 @@
     <a href="https://github.com/tazokuetep24/budget-manager/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tazokuetep24/budget-manager">View Demo</a>
+    <a href="https://tazokuetep24.github.io/budget-manager/">View Demo</a>
     &middot;
     <a href="https://github.com/tazokuetep24/budget-manager/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
