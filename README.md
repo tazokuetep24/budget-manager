@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/tazokuetep24/budget-manager">
-    <img src="public/logo.png" alt="Logo" width="50%" height="50%">
+    <img src="git/logo.png" alt="Logo" width="50%" height="50%">
   </a>
 
 <h3 align="center">Budget Manager</h3>
