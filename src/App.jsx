@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Typewriter , {TypewriterClass} from 'typewriter-effect';
+import logo from './assets/logo.svg'
 import './App.css'
 
 export default function BudgetApp() {
@@ -16,19 +17,13 @@ export default function BudgetApp() {
     }
   };
 
-  // const spent = expenses.map(expense => 
-  //   <tr>
-  //   <td>{expense.category}</td>
-  //   <td>{expense.amount}</td>
-  //   </tr>
-  // )
 
   const totalExpenses = expenses.reduce((acc, item) => acc + item.amount, 0);
   const remainingBudget = income - totalExpenses;
 
   return (
     <>
-    <img src="assets/logo.svg" alt="Logo for the app" />
+    <img src={logo} alt="Logo for the app" />
     <div className="text-gray-700 text-2xl font-[Courier_New]"> <Typewriter 
     onInit={(typewriter) => {
       typewriter.typeString('Welcome to Budget Manager <br/>')
@@ -85,7 +80,7 @@ export default function BudgetApp() {
         Add Expense
       </button>
       
-      <h2 className="mt-6 font-bold">Expenses:</h2>
+      <h2 className="mt-6 font-bold text-gray-700">Expenses:</h2>
       <ul className="mt-2 text-gray-700">
         {expenses.map((expense, index) => (
           <li key={index} className="flex justify-between border-b p-2">
@@ -95,25 +90,14 @@ export default function BudgetApp() {
         ))}
       </ul>
       
-      <h2 className="mt-6 font-bold">Summary:</h2>
-      <p>Total Expenses: ${totalExpenses.toFixed(2)}</p>
-      <p className={`font-bold ${remainingBudget < 0 ? "text-red-500" : "text-green-500"}`}>
+      <h2 className="mt-6 font-bold text-gray-700">Summary:</h2>
+      <p className='text-gray-700'>Total Expenses: ${totalExpenses.toFixed(2)}</p>
+      <p className={`font-bold  ${remainingBudget < 0 ? "text-red-500" : "text-green-500"}`}>
         Remaining Budget: ${remainingBudget.toFixed(2)}
       </p>
     </div>
 
-    {/* <div>
-        <table className="text-gray-700 table-auto w-full">
 
-        <tr>
-          <th>Category</th>
-          <th>Amount</th>
-        </tr>
-        {spent}
-        </table>
-
-
-    </div> */}
     </>
   );
 }
