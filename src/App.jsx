@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Typewriter , {TypewriterClass} from 'typewriter-effect';
 import './App.css'
 
 export default function BudgetApp() {
@@ -15,13 +16,38 @@ export default function BudgetApp() {
     }
   };
 
+  // const spent = expenses.map(expense => 
+  //   <tr>
+  //   <td>{expense.category}</td>
+  //   <td>{expense.amount}</td>
+  //   </tr>
+  // )
+
   const totalExpenses = expenses.reduce((acc, item) => acc + item.amount, 0);
   const remainingBudget = income - totalExpenses;
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white shadow-md rounded-lg mt-10">
-      <h1 className="text-xl font-bold mb-4 text-gray-700">Budget Calculator</h1>
-      
+    <>
+    <img src="assets/logo.svg" alt="Logo for the app" />
+    <div className="text-gray-700 text-2xl font-[Courier_New]"> <Typewriter 
+    onInit={(typewriter) => {
+      typewriter.typeString('Welcome to Budget Manager <br/>')
+      .pauseFor(1000)
+      .typeString("Let's make your Wallet great again.")
+      .start(); 
+    }
+  }
+      options={{
+        cursor: "",
+        delay: 70
+      }}
+    
+  /></div>
+
+    <div className="max-w-md mx-auto p-6 bg-white shadow-md rounded-lg mt-10 ">
+
+      <h1 className="text-xl font-bold mb-4 text-gray-700">Budget Calculator</h1> 
+
       <div className="mb-4">
         <label className="block text-gray-700">Income:</label>
         <input 
@@ -60,7 +86,7 @@ export default function BudgetApp() {
       </button>
       
       <h2 className="mt-6 font-bold">Expenses:</h2>
-      <ul className="mt-2">
+      <ul className="mt-2 text-gray-700">
         {expenses.map((expense, index) => (
           <li key={index} className="flex justify-between border-b p-2">
             <span>{expense.category}</span>
@@ -75,6 +101,20 @@ export default function BudgetApp() {
         Remaining Budget: ${remainingBudget.toFixed(2)}
       </p>
     </div>
+
+    {/* <div>
+        <table className="text-gray-700 table-auto w-full">
+
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+        {spent}
+        </table>
+
+
+    </div> */}
+    </>
   );
 }
 
